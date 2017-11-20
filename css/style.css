@@ -1,0 +1,61 @@
+body{
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  
+}
+button{
+  font-size: 2.8em;
+  padding: .2em;
+  border-radius: 30%;
+}
+.changer{
+  border-radius: 30%;
+  width: 42px;
+}
+.reset{
+  border-radius: 30%;
+}
+button:focus {outline:0;}
+.team{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fight{
+  background-color: #2e343d;
+  font-size:10vw;
+  padding: 2vmax;
+  color: #d1d1d1;
+
+}
+p{
+  font-size: 2em;
+color: #d1d1d1;
+}
+body{
+  background-color: #111a28;
+}
+.danger{
+  background-color: #bf1818;
+}
+.change{
+  display: flex;
+  
+  font-size: 0.4em;
+  
+}
+.rs{
+  dispaly: flex;
+  
+  font-size: 0.4em;
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+}
