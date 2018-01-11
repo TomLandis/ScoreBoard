@@ -4,12 +4,13 @@ body{
   
 }
 button{
+  background-color:white;
   font-size: 2.8em;
   padding: .2em;
   border-radius: 30%;
 }
 .changer{
-  background-color:white
+  background-color:white;
   border-radius: 30%;
   padding:1rem;
   width: 42px;
