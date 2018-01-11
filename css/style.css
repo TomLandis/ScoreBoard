@@ -9,10 +9,14 @@ button{
   border-radius: 30%;
 }
 .changer{
+  background-color:white
   border-radius: 30%;
+  padding:1rem;
   width: 42px;
 }
 .reset{
+  background-color:white;
+  padding: 1rem;
   border-radius: 30%;
 }
 button:focus {outline:0;}
