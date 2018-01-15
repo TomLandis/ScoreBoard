@@ -1,5 +1,6 @@
 var numberOfPlayers;
 var minus = false;
+var mb;
 function refresh(){
  $('.howMany').show();
   $('.fight').remove();
@@ -54,10 +55,12 @@ function ClickHandler3(e){
   //console.log(info);
   if(info === "+"){
     minus = true;
+    mb = true;
     $('.changer').text("-");
     $('.changer').addClass('danger');
   }else{
     minus = false;
+    mb = false;
     $(".changer").text("+");
     $('.changer').removeClass('danger')
   }
@@ -66,3 +69,22 @@ function ClickHandler3(e){
 $('.choose').click(function(event){ClickHandler(event);});
 
 $(".rs").click(function(){refresh();});
+
+//keyboard support here
+document.addEventListener("keydown", function(event) {
+  if(event.which === 83){
+    minus = true;
+  }
+  //console.log(event.which);
+  
+});
+
+document.addEventListener("keyup", function(event) {
+  
+
+  if(mb){
+     console.log("here");
+     }
+  minus = false;
+ // console.log("up");
+});
