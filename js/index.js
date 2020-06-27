@@ -17,7 +17,7 @@ function ClickHandler(e) {
   $('.howMany').hide();
   var board="";
   for(var i=1; i<=num; i++){
-    board = board + "<div class='box'><p contenteditable="true">Team <br>" + i + "</p><button class='fight' id='0" + i +"' >0</button></div>";
+    board = board + "<div class='box'><p contenteditable='true'>Team <br>" + i + "</p><button class='fight' id='0" + i +"' >0</button></div>";
   }
   var but = "<button class='changer'>+</button>";
   $('.change').append(but);
